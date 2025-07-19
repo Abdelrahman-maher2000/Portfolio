@@ -11,15 +11,17 @@ export default function Contacts() {
         <>
             <Container style={{ color: "#D9EFDE" }}>
                 <Row>
-                    <Col xs="6">
+                    <Col xs="12" md="6">
                         <h2>Abdelrahman Maher</h2>
                     </Col>
                     <Col
-                        xs="6"
+                        xs="12"
+                        md="6"
                         style={{
                             display: "flex",
-                            justifyContent: "end",
+                            // justifyContent: "end",
                         }}
+                        className="socials"
                     >
                         <div
                             className="d-flex align-items-center justify-content-start"
@@ -50,6 +52,25 @@ export default function Contacts() {
                         </div>
                     </Col>
                 </Row>
+                <div style={{ marginTop: "20px" }} className="phone">
+                    <h4
+                        style={{
+                            display: "inline-block",
+                            marginBottom: "0",
+                        }}
+                    >
+                        Phone Number:
+                    </h4>
+                    <span
+                        style={{
+                            fontSize: "20px",
+                            marginBottom: "0",
+                        }}
+                    >
+                        {" "}
+                        +201067423926
+                    </span>
+                </div>
             </Container>
         </>
     );

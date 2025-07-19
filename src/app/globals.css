@@ -156,3 +156,25 @@ a {
 }
 
 /* ===Projects=== */
+
+/* ===Footer=== */
+
+.socials{
+  justify-content: end !important;
+}
+
+.phone{
+  text-align: end;
+}
+
+@media(max-width:767px){
+  .socials{
+    justify-content: start !important;
+  }
+  .phone{
+    text-align: start;
+  }
+  
+}
+
+/* ===Footer=== */
