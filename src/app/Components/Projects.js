@@ -97,11 +97,11 @@ export default function Projects() {
 
 const projects = [
     {
-        img: "/project.jpg",
+        img: "/Dashboard.png",
         title: "First Project",
-        description: "description of first Project",
+        description: "Dashboard Project",
         id: "1",
-        url: "#",
+        url: "https://abdelrahmandashboard.netlify.app/",
     },
     {
         img: "/project.jpg",
