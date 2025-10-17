@@ -104,11 +104,11 @@ const projects = [
         url: "https://abdelrahmandashboard.netlify.app/",
     },
     {
-        img: "/project.jpg",
+        img: "/Resturant.png",
         title: "Second Project",
-        description: "description of second Project",
+        description: "Resturant Website",
         id: "2",
-        url: "#",
+        url: "https://redresturant.netlify.app/",
     },
     {
         img: "/project.jpg",
